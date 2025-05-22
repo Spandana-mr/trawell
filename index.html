@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+	<style>
+		body {
+			font-family: system-ui;
+		}
+		.box {
+			height: 1px;
+			align-self: stretch;
+			background: #322F35;
+			margin-bottom: 29px;
+			margin-left: 2px;
+			margin-right: 2px;
+		}
+		.button {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			background: #2C2C2C;
+			border-radius: 8px;
+			border: 1px solid #2C2C2C;
+			padding: 12px 104px;
+			margin-bottom: 43px;
+			margin-left: 32px;
+			text-align: left;
+		}
+		.column {
+			align-self: stretch;
+			display: flex;
+			flex-direction: column;
+		}
+		.column2 {
+			align-self: stretch;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			background: #FFFFFF;
+			border-top-left-radius: 50px;
+			border-top-right-radius: 50px;
+			border-bottom-right-radius: 2px;
+			border-bottom-left-radius: 2px;
+			border: 1px solid #FFFFFF1A;
+			padding: 26px 33px 106px 33px;
+		}
+		.column3 {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			margin-bottom: 18px;
+			margin-left: 32px;
+		}
+		.column4 {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding-bottom: 12px;
+			margin-bottom: 18px;
+			margin-left: 32px;
+		}
+		.column5 {
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			padding-bottom: 12px;
+			margin-bottom: 35px;
+			margin-left: 32px;
+		}
+		.contain {
+			display: flex;
+			flex-direction: column;
+			background: #FFFFFF;
+		}
+		.image {
+			height: 155px;
+			align-self: stretch;
+			object-fit: fill;
+		}
+		.input {
+			color: #1E1E1E;
+			font-size: 16px;
+			background: #FFFFFF;
+			border-radius: 8px;
+			border: 1px solid #D9D9D9;
+			padding: 12px 16px;
+		}
+		.row-view {
+			align-self: stretch;
+			display: flex;
+			align-items: center;
+			border-radius: 8px;
+			margin-left: 46px;
+			margin-right: 46px;
+		}
+		.scroll-view {
+			flex: 1;
+			align-self: stretch;
+			border: 1px solid #000000;
+			box-shadow: 0px 4px 4px #00000040;
+		}
+		.text {
+			color: #000000;
+			font-size: 40px;
+			font-weight: bold;
+			text-align: center;
+			margin-bottom: 23px;
+		}
+		.text2 {
+			color: #1E1E1E;
+			font-size: 16px;
+			margin-bottom: 8px;
+		}
+		.text3 {
+			color: #F5F5F5;
+			font-size: 16px;
+		}
+		.text4 {
+			color: #000000;
+			font-size: 16px;
+			flex: 1;
+		}
+		.text5 {
+			color: #1E1E1E;
+			font-size: 16px;
+			margin: 8px;
+		}
+		.view {
+			height: 917px;
+			align-self: stretch;
+			display: flex;
+			flex-direction: column;
+			background-image: url('https://i.imgur.com/1tMFzp8.png');
+			background-size: cover;
+			background-position: center;
+		}
+	</style>
+</head>
+<body>
+		<div class="contain">
+		<div class="view">
+			<div class="scroll-view">
+				<div class="column">
+					<img
+						src="https://figma-alpha-api.s3.us-west-2.amazonaws.com/images/36b2a28d-1599-40d7-bdb1-877fef7ff2e7" 
+						class="image"
+					/>
+					<div class="column2">
+						<span class="text" >
+							Register
+						</span>
+						<div class="column3">
+							<span class="text2" >
+								Name
+							</span>
+							<input
+								type="text"
+								placeholder="John Doe"
+								class="input"
+							/>
+						</div>
+						<div class="column4">
+							<span class="text2" >
+								Email
+							</span>
+							<input
+								type="text"
+								placeholder="Johndoe123@gmail.com"
+								class="input"
+							/>
+						</div>
+						<div class="column5">
+							<span class="text2" >
+								Password
+							</span>
+							<input
+								type="text"
+								placeholder="******"
+								class="input"
+							/>
+						</div>
+						<button class="button"
+							onclick="alert('Pressed!')"}>
+							<span class="text3" >
+								Register
+							</span>
+						</button>
+						<div class="box">
+						</div>
+						<div class="row-view">
+							<span class="text4" >
+								Already have an account?
+							</span>
+							<span class="text5" >
+								Login.
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
